@@ -1,0 +1,62 @@
+.hero-container {
+    /* background-image: url('C:\Users\bhakt\OneDrive\Desktop\Fnal Year Project\React_Project\mock-intervieww\mock-interview\public\home page.jpeg'); */
+    background-image: url('C:\Users\lenovo\Desktop\Html codes\React\job-search-ui\public\image.jfif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-right: 500px;
+    color: white;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-right: 500px;
+  }
+  
+  .hero-content button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 500px
+  }
