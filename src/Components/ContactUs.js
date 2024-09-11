@@ -30,7 +30,7 @@ function ContactUs() {
   };
 
   const mapStyles = {
-    height: "400px",
+    height: "600px",
     width: "100%"
   };
 
@@ -42,7 +42,7 @@ function ContactUs() {
   return (
     <div className="contact-container" id="contact">
       <div className="map-container">
-        <LoadScript googleMapsApiKey="YOUR_REAL_GOOGLE_MAPS_API_KEY">
+        <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}>
           <GoogleMap
             mapContainerStyle={mapStyles}
             zoom={6}
