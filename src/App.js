@@ -26,7 +26,7 @@ function App() {
     </Router>
     </div>
     
-    <div className="app">
+    <div className="app" id='features'>
     <h1 className="title ">Key Features</h1>
     <div className="features-containers">
       <div className="feature-cards">
@@ -47,7 +47,7 @@ function App() {
     </div>
   </div> 
   
-  <div className="app2">
+  <div className="app2" id='about'>
       <div className="why-choose-us">
         <div className="image-container">
           {/* <img src="stacked-books.jpg" alt="Stacked books" /> */}
@@ -95,7 +95,7 @@ function App() {
 
 function Home() {
   return (
-    <div>
+    <div id='service'>
       <h2>Transform your job search journey</h2>
       <div className="features-container">
         <Link to="/resume-builder" className="feature-link">

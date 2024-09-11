@@ -40,7 +40,7 @@ function ContactUs() {
   };
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <div className="map-container">
         <LoadScript googleMapsApiKey="YOUR_REAL_GOOGLE_MAPS_API_KEY">
           <GoogleMap
