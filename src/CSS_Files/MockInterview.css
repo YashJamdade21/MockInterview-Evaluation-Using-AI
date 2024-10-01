@@ -1,0 +1,41 @@
+.mock-interview {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .conversation-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    display: flex;
+  flex-direction: column;
+  gap: 10px;
+  }
+  
+  .chat-message {
+    margin: 10px 0;
+    max-width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  }
+  
+  .chat-message.User {
+    text-align: right;
+  }
+  
+  .chat-message.AI {
+    text-align: left;
+  }
+  .left {
+    align-self: flex-start;
+    background-color: #f1f1f1;
+    text-align: left;
+  }
+  
+  .right {
+    align-self: flex-end;
+    background-color: #d1e7dd;
+    text-align: right;
+  }

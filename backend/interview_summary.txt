@@ -1,0 +1,36 @@
+Question: Can you explain your experience with Java?
+Answer: 
+Sentiment: {'label': 'N/A', 'score': 0.0}
+
+Question: Can you explain your experience with SQL?
+Answer: sequel is I don't understand
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9994805455207825}]
+
+Question: How do you approach feature engineering in your projects?
+Answer: which engineering is most important engineering
+Sentiment: [{'label': 'POSITIVE', 'score': 0.9969148635864258}]
+
+Question: Can you explain your experience with Python?
+Answer: 10 years experience in Python with four projects and three internships
+Sentiment: [{'label': 'POSITIVE', 'score': 0.9287533760070801}]
+
+Question: What are your key strengths?
+Answer: strength is singing dancing coding eat sleep repeat
+Sentiment: [{'label': 'POSITIVE', 'score': 0.9981961846351624}]
+
+Question: What are the most important metrics to consider when evaluating a model?
+Answer: 
+Sentiment: {'label': 'N/A', 'score': 0.0}
+
+Question: Can you explain your experience with machine learning?
+Answer: 
+Sentiment: {'label': 'N/A', 'score': 0.0}
+
+Question: Can you discuss a machine learning project you've led?
+Answer: 
+Sentiment: {'label': 'N/A', 'score': 0.0}
+
+Question: How do you stay updated with industry trends?
+Answer: by seeing the YouTube and Google
+Sentiment: [{'label': 'POSITIVE', 'score': 0.9520882964134216}]
+

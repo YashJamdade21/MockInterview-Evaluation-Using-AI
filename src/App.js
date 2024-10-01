@@ -1,5 +1,5 @@
 // src/App.js
-import React from 'react';
+// import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import ResumeBuilder from './Components/ResumeBuilder';
@@ -8,10 +8,37 @@ import AiFeedbackAssistant from './Components/AiFeedbackAssistant'
 import Footer from './Components/Footer';
 import HeroSection from './Components/HeroSection';
 import ContactUs from './Components/ContactUs';
+import React, { useEffect, useState } from 'react';
+import InterviewSystem from './Components/InterviewSystem'; // Import your InterviewSystem component
+import MockInterview from './Components/MockInterview';
 
-function App() {
+// import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+
+function App() 
+  {
+    const [data, setData] = useState(null);
+  
+    useEffect(() => {
+      fetch('http://127.0.0.1:5000/api/data')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log(data); // Log the data for debugging
+          setData(data.message);
+        })
+        .catch(error => console.error('Error:', error));
+    }, []);
+    
   return (
     <>
+     <div>
+      <h1>Data from Flask</h1>
+      <div>{data}</div>
+    </div>
     <HeroSection/>
     <div>
     <Router>
@@ -21,6 +48,8 @@ function App() {
           <Route path="/resume-builder" element={<ResumeBuilder />} />
           <Route path="/interview-preparation" element={<InterviewPreparation />} />
           <Route path="/ai-feedback-assistant" element={<AiFeedbackAssistant />} />
+          <Route path="/interview-system" element={<InterviewSystem />} />
+          <Route path="/mock-interview" element={<MockInterview />} />
         </Routes>
       </div>
     </Router>

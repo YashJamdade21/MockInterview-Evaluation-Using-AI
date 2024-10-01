@@ -1,6 +1,8 @@
 .hero-container {
     /* background-image: url('C:\Users\bhakt\OneDrive\Desktop\Fnal Year Project\React_Project\mock-intervieww\mock-interview\public\home page.jpeg'); */
-    background-image: url('C:\Users\lenovo\Desktop\Html codes\React\job-search-ui\public\image.jfif');
+    /* background-image: url('C:\Users\lenovo\Desktop\Html codes\React\job-search-ui\public\image.jfif'); */
+    /* background-image: url('image.jfif'); */
+    background-image: url('C:\Users\Yash\Desktop\React-Course\MockInterview-Evaluation-Using-AI\public\image.jfif');
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -1,0 +1,129 @@
+/* 
+  
+  .interview-system {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiorhjwazWRkRA28wXdXQSdu9O5MUtosp4XA&s');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* width: 200px; */
+    /* height: 300vh; 
+    font-size: 25px;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .summary-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  .col-md-6 offset-md-3{
+    font-size: 500px;
+  }
+
+.form{
+  padding: 150px;
+}
+
+.form-inner{
+  margin:30px;
+}
+
+.button{
+  margin:50px;
+}
+ */
+
+
+
+
+
+ .interview-system {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiorhjwazWRkRA28wXdXQSdu9O5MUtosp4XA&s');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 70px;
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 110px;
+}
+
+.form-inner {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: black;
+  /* max-width: 600px; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* margin-right: 100px; */
+
+}
+
+
+.button {
+  /* display: block; */
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  /* margin-top: 70px; */
+}
+
+.summary-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  max-width: 600px;
+  word-wrap: break-word;
+}
+.form-inner input[type="file"]{
+  /* float: right; */
+  width: auto;
+  flex: 2;
+  padding: 5px;
+}

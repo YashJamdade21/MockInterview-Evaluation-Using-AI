@@ -1,7 +1,7 @@
 import React from 'react';
 // import './HeroSection.css'; // We'll style this component in a separate CSS file.
 import '../CSS_Files/heroSection.css'
-import { Router } from 'react-router-dom';
+// import { Router } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
